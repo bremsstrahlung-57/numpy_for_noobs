@@ -1,15 +1,30 @@
 # NumPy For Noobs
 
-This provides an introduction to working with vectors and matrices using the NumPy library in Python.
-As I am also a noob, I made this while also learning these things. These cover the functions which are generally used in Machine Learning.
+Hey there! 👋 Welcome to your friendly guide to NumPy - the superhero of numerical computing in Python! Whether you're just starting out with data science or looking to brush up on your NumPy skills, you're in the right place.
 
-NOTE: Not all the topics/functions mentioned are done as of now if your reading this. I will add them soon as possible.
+I created this guide while learning NumPy myself, so trust me - it's written with beginners in mind! Inside, you'll find clear examples and explanations of the most commonly used NumPy functions in Machine Learning, including:
+- 🎲 Creating and playing with arrays (the building blocks of NumPy)
+- 🔄 Reshaping and manipulating data like a pro
+- 🎯 Picking out exactly the data you need (indexing & slicing)
+- 🧮 Doing cool math stuff with arrays
+- 📊 Statistical operations made easy
+- ✅ Checking and filtering your data
+- 🛠️ Essential tools for Machine Learning
+
+NOTE:
+* This guide covers the most important parts of NumPy, but there's always more to explore in the [NumPy Docs](https://numpy.org/doc/stable/)
+* Some examples were created with help from AI tools (because why not use all available resources!)
+* You might find some quirks - feel free to point them out!
+
+Let's dive in and make NumPy fun! 
 
 All the best
 
-## Notebook Contents
+---
 
-The notebook covers the following topics:
+## Contents
+
+This covers the following topics:
 
 1. **Creating and Initializing Arrays**
   - np.array() → Create arrays from lists/tuples
@@ -24,6 +39,7 @@ The notebook covers the following topics:
   - np.random.randint() → Random integers in a given range
 
 2. **Data Manipulation**
+  - np.copy() → Create a duplicate of an array
   - np.reshape() → Reshape arrays (e.g., from 1D to 2D)
   - np.flatten() → Convert multi-dimensional arrays to 1D
   - np.ravel() → Flatten an array (like flatten(), but returns a view when possible)
