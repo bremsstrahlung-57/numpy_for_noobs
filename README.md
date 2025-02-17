@@ -11,10 +11,16 @@ I created this guide while learning NumPy myself, so trust me - it's written wit
 - ✅ Checking and filtering your data
 - 🛠️ Essential tools for Machine Learning
 
+Future Plans:
+* Random Numbers
+* Optimizing Performance
+* Real-World Applications
+
+
 NOTE:
 * This guide covers the most important parts of NumPy, but there's always more to explore in the [NumPy Docs](https://numpy.org/doc/stable/)
 * Some examples were created with help from AI tools (because why not use all available resources!)
-* You might find some quirks - feel free to point them out!
+* Some functions are explained in other files later in the repository. Sorry about that, will fix it.
 
 Let's dive in and make NumPy fun! 
 
@@ -94,6 +100,26 @@ This covers the following topics:
   - np.bincount() → Count occurrences of values
   - np.meshgrid() → Generate coordinate grids (useful in visualization)
 
+If you want to follow a path for learning through this repo, the following would be best:
+```
+numpy_for_noobs/
+│── basics/
+│   ├── 01_creating_arrays.ipynb
+│   ├── 02_order_in_numpy.md
+│   ├── 03_c_order_and_f_order.md
+│── operations/
+│   ├── 04_indexing_and_slicing.ipynb
+│   ├── 05_data_manipulation.ipynb
+│   ├── 06_mathematical_operations.ipynb
+│── advanced/
+│   ├── 07_statistical_and_aggregation_functions.ipynb
+│   ├── 08_vector_and_matrix.ipynb
+│   ├── 09_linear_algebra.ipynb
+│── extra/
+│   ├── 10_boolean_and_comparison_operations.ipynb
+│   ├── 11_utility_functions_ml.ipynb
+│── README.md
+```
 
 ## Getting Started
 
