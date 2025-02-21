@@ -12,7 +12,6 @@ I created this guide while learning NumPy myself, so trust me - it's written wit
 - 🛠️ Essential tools for Machine Learning
 
 Future Plans:
-* Random Numbers
 * Optimizing Performance
 * Real-World Applications
 
@@ -103,22 +102,30 @@ This covers the following topics:
 If you want to follow a path for learning through this repo, the following would be best:
 ```
 numpy_for_noobs/
-│── basics/
-│   ├── 01_creating_arrays.ipynb
-│   ├── 02_order_in_numpy.md
-│   ├── 03_c_order_and_f_order.md
-│── operations/
-│   ├── 04_indexing_and_slicing.ipynb
-│   ├── 05_data_manipulation.ipynb
-│   ├── 06_mathematical_operations.ipynb
-│── advanced/
-│   ├── 07_statistical_and_aggregation_functions.ipynb
-│   ├── 08_vector_and_matrix.ipynb
-│   ├── 09_linear_algebra.ipynb
-│── extra/
-│   ├── 10_boolean_and_comparison_operations.ipynb
-│   ├── 11_utility_functions_ml.ipynb
-│── README.md
+│── 📜 README.md                      # Project introduction & guide
+│
+├── 🔰 basics/                         # Fundamental NumPy concepts
+│   ├── 📂 01_creating_arrays.ipynb      # Creating and initializing arrays
+│   ├── 📂 02_order_in_numpy.md         # Memory order (C vs. F order)
+│   ├── 📂 03_indexing_slicing.ipynb    # Accessing elements in arrays
+│   ├── 📂 04_mathematical_operations.ipynb  # Basic math operations
+│   ├── 📂 05_boolean_comparison.ipynb  # Boolean and comparison operations
+│
+├── ⚡ operations/                      # Array manipulations & computations
+│   ├── 📂 06_vector_and_matrix.ipynb   # Vector and matrix operations
+│   ├── 📂 07_data_manipulation.ipynb   # Transforming and reshaping arrays
+│   ├── 📂 08_statistical_functions.ipynb  # Aggregation & statistical functions
+│   ├── 📂 09_random_numbers.ipynb      # Generating random numbers
+│
+├── 🚀 advanced/                        # Advanced NumPy techniques
+│   ├── 📂 10_linear_algebra.ipynb      # Linear algebra operations
+│   ├── 📂 11_utility_functions_ml.ipynb  # NumPy utilities for ML
+│   ├── 📂 12_optimizing_performance.ipynb(to be added?)  # Performance optimization
+│
+└── 🌍 extra/                           # Additional resources
+    ├── 📂 13_C-Order_and_F-Order.md    # Explanation of memory layouts
+    ├── 📂 14_real_world_applications.ipynb(to be added?)  # NumPy in real-world ML tasks
+
 ```
 
 ## Getting Started
